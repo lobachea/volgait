@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+#widget {
+  font-family: "Open Sans";
+}
+
+#widget section {
+  display: none;
+}
+#widget section.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 50px;
+	padding-top: 70px;
+	background: #f7f8f9;
+	margin: 0 auto;
+	color: #3a4850;
+	text-align: center;
+}
+
+#widget .hud {
+  position: absolute;
+  width: 100%;
+  height: 66px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 1px 7px rgba(58, 72, 80, 0.07);
+}
+
+#widget .hud p {
+  color: #3a4850;
+}
+
+#widget .about {
+  text-align: center;
+  padding-top: 200px;
+}
+
+#widget .about h2 {
+  color: #2196f3;
+  font-size: 24px;
+  padding: 22px;
+}
+
+#widget .about p {
+  color: #3a4850;
+  font-size: 15px;
+  padding: 22px;
+}
+
+#widget .blue-buttons {
+  background: linear-gradient(270deg, #45c7fa 0%, #2196f3 100%);
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.03);
+  border-radius: 24px;
+  width: 177px;
+  height: 35px;
+  margin: 0 auto;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 13px;
+  color: #ffffff;
+}
+
+#widget .gray-buttons {
+  background: #DEDEDE;
+  border-radius: 24px;
+  width: 181px;
+  height: 35px;
+  margin: 0 auto;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 13px;
+  color: #ffffff;
+}
+
+#widget .second-text {
+  font-size: 14px;
+}
+
+#widget .defaultLink {
+  text-decoration-line: underline;
+  color: #3a4850;
+}
+
+#widget .defaultButton {
+  width: 274px;
+  height: 55px;
+  background: #ffffff;
+  border: 1px solid rgba(231, 235, 237, 0.80141);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+  border-radius: 14px;
+  margin: 0 auto;
+  margin-top: 14px;
+  padding-top: 83px;
+  cursor: pointer;
+}
+
+#widget #between h2, #widget #between2 h2 {
+  color: #0196ff;
+  padding-top: 200px;
+}
+
+#widget #final h2 {
+  color: #2196f3;
+  font-size: 24px;
+  padding: 22px;
+}
+
+
+/*#start-screen {
+  position: relative;
+  width: 100%;
+  height: 638px;
+  background: #f7f8f9;
+  margin: 0 auto;
+}
+
+#gender {
+  position: relative;
+  width: 100%;
+  height: 638px;
+  background: #f7f8f9;
+  margin: 0 auto;
+  color: #3a4850;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#eyewear_type {
+  position: relative;
+  width: 100%;
+  height: 638px;
+  background: #f7f8f9;
+  margin: 0 auto;
+  color: #3a4850;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#between {
+  position: relative;
+  width: 100%;
+  height: 638px;
+  background: #f7f8f9;
+  margin: 0 auto;
+  color: #3a4850;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#question {
+  position: relative;
+  width: 100%;
+  height: 638px;
+  background: #f7f8f9;
+  margin: 0 auto;
+  color: #3a4850;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#question .defaultButton p {
+  font-size: 25px;
+  padding-top: 25px;
+}
+
+#lenstype {
+  position: relative;
+  width: 100%;
+  height: 638px;
+  background: #f7f8f9;
+  margin: 0 auto;
+  color: #3a4850;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#lenstype .defaultButton p {
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+#frame_size {
+  position: relative;
+  width: 100%;
+  height: 838px;
+  background: #f7f8f9;
+  margin: 0 auto;
+  color: #3a4850;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#between2 {
+  position: relative;
+  width: 100%;
+  height: 638px;
+  background: #f7f8f9;
+  margin: 0 auto;
+  color: #3a4850;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#face_size {
+  position: relative;
+  width: 100%;
+  height: 838px;
+  background: #f7f8f9;
+  margin: 0 auto;
+  color: #3a4850;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#shade {
+  position: relative;
+  width: 100%;
+  height: 838px;
+  background: #f7f8f9;
+  margin: 0 auto;
+  color: #3a4850;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#blue_light {
+  position: relative;
+  width: 100%;
+  height: 838px;
+  background: #f7f8f9;
+  margin: 0 auto;
+  color: #3a4850;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#face_shape1 {
+  position: relative;
+  width: 100%;
+  height: 838px;
+  background: #f7f8f9;
+  margin: 0 auto;
+  color: #3a4850;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#face_shape2 {
+  position: relative;
+  width: 100%;
+  height: 838px;
+  background: #f7f8f9;
+  margin: 0 auto;
+  color: #3a4850;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#face_shape3 {
+  position: relative;
+  width: 100%;
+  height: 838px;
+  background: #f7f8f9;
+  margin: 0 auto;
+  color: #3a4850;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#facial_features {
+  position: relative;
+  width: 100%;
+  height: 838px;
+  background: #f7f8f9;
+  margin: 0 auto;
+  color: #3a4850;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#shape {
+  position: relative;
+  width: 100%;
+  height: 838px;
+  background: #f7f8f9;
+  margin: 0 auto;
+  color: #3a4850;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#before_brand {
+  position: relative;
+  width: 100%;
+  height: 838px;
+  background: #f7f8f9;
+  margin: 0 auto;
+  color: #3a4850;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#brand {
+  position: relative;
+  width: 100%;
+  height: 838px;
+  background: #f7f8f9;
+  margin: 0 auto;
+  color: #3a4850;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#final {
+  position: relative;
+  width: 100%;
+  height: 838px;
+  background: #f7f8f9;
+  margin: 0 auto;
+  color: #3a4850;
+  text-align: center;
+  padding-top: 200px;
+}*/
